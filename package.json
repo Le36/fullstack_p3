@@ -1,0 +1,27 @@
+{
+  "name": "puhelinluettelo",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000f\u0000u\u0000l\u0000l\u0000s\u0000t\u0000a\u0000c\u0000k\u0000_\u0000p\u00003\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le36/fullstack_p3.git"
+  },
+  "author": "Le36",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Le36/fullstack_p3/issues"
+  },
+  "homepage": "https://github.com/Le36/fullstack_p3#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
