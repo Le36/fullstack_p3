@@ -79,8 +79,9 @@ const App = () => {
             personService.create(personObject).then(returnedPerson => {
                 setPersons(persons.concat(returnedPerson))
                 setErrorMessage(`Added ${returnedPerson.name} successfully`)
-            }).catch(() => {
-                setErrorMessage(`error: cant add`)
+            }).catch(error => {
+                console.log(error)
+                setErrorMessage(`error: ${error.response.data.error}`)
             })
         }
         setNewName("")
