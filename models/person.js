@@ -22,7 +22,7 @@ const personSchema = new mongoose.Schema({
         minLength: 8,
         validate: {
             validator: function (value) {
-                return /^\d{2,3}-\d{4,}$/.test(value);
+                return /^\d{2,3}-\d{4,}$/.test(value)
             },
             message: 'Invalid format'
         }
