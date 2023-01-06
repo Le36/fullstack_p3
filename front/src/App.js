@@ -80,7 +80,6 @@ const App = () => {
                 setPersons(persons.concat(returnedPerson))
                 setErrorMessage(`Added ${returnedPerson.name} successfully`)
             }).catch(error => {
-                console.log(error)
                 setErrorMessage(`error: ${error.response.data.error}`)
             })
         }
